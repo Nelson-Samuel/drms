@@ -1,0 +1,11 @@
+.Main{
+background-image: url("../Images/CoverDog.jpg");
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position: fixed;
+overflow: hidden;
+top: 0;
+}

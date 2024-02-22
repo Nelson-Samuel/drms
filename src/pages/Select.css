@@ -1,0 +1,12 @@
+.choose{
+    position:relative;
+    top: 150px;
+  }
+  .cho1{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .tit{
+   margin: auto;
+  }

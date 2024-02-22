@@ -1,0 +1,169 @@
+
+.citbtn{
+    color: #888;
+}
+.citscroll{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+html {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ececec;
+  width: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.citPage{
+  overflow-y: scroll;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ background-image: url('../../Images/CitPage2.jpg');
+}
+.cardCit{
+  padding: 15px;
+   width: 500px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  height: 92%;
+  background-color: #f6f6f6;
+}
+.cardCit-body{
+  width: fit-content;
+    padding: 25px;
+    margin-top: -15px;
+  
+}
+.btnrs1:hover{
+    background-color: #ffffff;
+    color: #9b4600;
+}
+.btnrs1{
+    border-radius: 50px;
+    width: 120px;
+    color: white;
+    background-color: #9b4600;
+    border-color: #9b4600;
+}
+.resh5{
+    color: #9b4600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.resp{
+    font-family:sans-serif;
+}
+  
+  .citimg{
+    height:350px ;
+    width: 250px;
+  
+  }
+  #drop-area{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+}
+#img-viewc{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px dashed #9b4600;
+    background-color: #f7f8ff;
+    background-position: center;
+    background-size: cover;
+}
+#img-viewc img{
+    width: 100px;
+    margin-top: 40px;
+    filter:hue-rotate(20);
+}
+#img-viewc p{
+    font-family: 'popins',sans-serif;
+    color: #9b4600;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+
+.containerCit{
+  width: fit-content;
+  padding: 15px;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 30px;
+  height: 92%;
+}
+.d-flexCit{
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+  background-color: #f6f6f6;
+  height: 88%;
+}
+.formCit{
+  flex: 4;
+}
+
+.titleCit{
+
+  background: linear-gradient(to bottom right, #9b4600 0%, #9b4600 100%);
+  border-radius:10px 10px 0 0 ;
+  padding: 20px;
+  color: #f6f6f6;
+ 
+}
+.h2Cit{
+  margin: 0;
+  padding-left: 15px; 
+}
+.required{
+  color: red;
+}
+.labCit{
+  display: flex;
+  margin: 15px;
+}
+.labCit>span{
+  float: left;
+  width: 30%;
+  margin-top: 12px;
+  padding-right: 10px;
+}
+.inpCit1
+{
+  width: 70%;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #dadada;
+  color: #888;
+  border-radius: 20px;
+}
+ .inpCit1:focus,
+    .inpCit1:active {
+         box-shadow: 0 0 0 0.15rem #9b4600;
+     }
+     .citbtn:focus,
+     .citbtn:active {
+          box-shadow: 0 0 0 0.15rem #9b4600;
+      }
+.selCit{
+  width: 70%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+

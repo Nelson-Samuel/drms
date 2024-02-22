@@ -1,0 +1,13 @@
+.thought{
+    justify-content: center;
+    position: relative;
+    color: white;
+    top: 150px;
+}
+.h1{
+font-weight: normal;
+}
+.head{
+font-weight: normal;
+margin-top: -5px;
+}

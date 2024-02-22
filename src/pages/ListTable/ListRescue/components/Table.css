@@ -1,0 +1,218 @@
+.CRbtn2{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.CRbtn1{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+/* Form */
+
+
+.RescDetFull{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:100vw;
+    height: 100%;
+    margin-left: 25%;
+    z-index: 100;
+    top: 0;
+    position: absolute;
+    overflow: auto;
+    display: none;
+    /* border-radius: 40px; */
+    }
+    .itemRescDet select{
+        padding: 0.8rem 1.2rem;
+        border: solid 1px #efefef;
+        margin-bottom: 1.2rem;
+        outline: none;
+        border-radius: 0.75rem;
+        transition: box-shadow 200ms ease-out;
+
+}
+.RescDetFullcan{
+    position: absolute;
+    margin-left: 25%;
+    top: -5px;
+    width:100vh;
+    height: 100vh;
+    overflow: auto;
+    display: none;
+
+}
+
+    .heroRescDet{
+        width: 100%;
+        min-height:50%;
+    display: inline-flex;
+        justify-content: center;
+        position: relative;
+    
+    
+    }
+    #drop-areaRescDet{
+        width: 500px;
+        height: 300px;
+        padding: 30px;
+        background: white;
+        text-align: center;
+        border-radius: 20px;
+    }
+    #img-viewRescDet{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: 2px dashed #bbb5ff;
+        background-color: #f7f8ff;
+        background-position: center;
+        background-size: cover;
+    }
+    #img-viewRescDet img{
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+    }
+    #img-viewRescDet p{
+    display: block;
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+    }
+    /* Card */
+    .RescDetFull
+    select,
+    option,
+    input,
+    button {
+        font-family: "Source Sans Pro", sans-serif;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .RescDeth2,
+    .category-descriptionRescDet {
+        background-image: linear-gradient(90deg, #f2bc18, #fffc2e);
+        width: calc(100% - calc(2.2rem * 2));
+        max-width: 640px;
+        padding: 2.8rem;
+        transform: translateY(5px);
+    }
+    
+    .RescDeth2{
+        color: rgba(0, 0, 0, 0.8);
+        font-family: "Dela Gothic One", cursive;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+        margin-bottom: 0;
+        border-radius: 2.7rem 2.7rem 0 0;
+    }
+    
+    .category-descriptionRescDet {
+        color: rgba(0, 0, 0, 0.45);
+        font-family: "Atma", cursive;
+        font-size: 1.25rem;
+        padding-top: 0;
+        padding-bottom: 6.5rem;
+        margin-top: 0;
+        border-radius: 0 0 2.7rem 2.7rem;
+    }
+    
+    
+    
+    .itemRescDet {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: calc(100% - calc(4.8rem * 2));
+        max-width: 480px;
+        padding: 2.5rem;
+        margin-bottom: 2.2rem;
+       margin-left: 70px;
+        display: flex;
+        justify-content: center;
+    
+        flex-direction: column;
+        border-radius: 1.7rem;
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+        transform: translateY(-4rem);
+        backdrop-filter: blur(1.5rem);
+    }
+    
+    .itemRescDet:last-child {
+        margin-bottom: 0.5rem;
+    }
+    
+    .itemRescDet h3 {
+        font-size: 1.75rem;
+        font-weight: bold;
+        height: 2.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    
+    .itemRescDet figure:hover + .description,
+    .description:hover {
+        opacity: 1;
+    }
+    
+    .itemRescDet button {
+        width: 40%;
+        color: #d99904;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-shadow: 0 -1px #ffc233;
+        background-image: linear-gradient(#ffe46e 0%, #ffd936 30% 80%, #ffcd19 100%);
+        padding: 1.4rem;
+        border: solid 1px #c98d00;
+        outline: none;
+        border-radius: 2.5rem / 50%;
+        transition: filter 500ms ease-out;
+    }
+    .buttonAlign{
+        display: inline-flex;
+        justify-content: center;
+        justify-self: center;
+
+    }
+    
+    .itemRescDet button:hover {
+        filter: brightness(90%);
+    }
+    
+    .itemRescDet button:active {
+        filter: brightness(80%);
+    }
+    
+    
+    .itemRescDet  select ,input,textarea {
+        padding: 0.8rem 1.2rem;
+        border: solid 1px #efefef;
+        margin-bottom: 1.2rem;
+        outline: none;
+        border-radius: 0.75rem;
+        transition: box-shadow 200ms ease-out;
+    }
+    
+   .itemRescDet select:focus,
+   .itemRescDet select:active {
+        box-shadow: 0 0 0 0.15rem rgba(255, 251, 0, 0.622);
+    }
+    .itemRescDet input:focus,
+    .itemRescDet input:active {
+         box-shadow: 0 0 0 0.15rem rgba(255, 251, 0, 0.622);
+     }
+ 
+
+    label {
+        margin-bottom: 0.7rem;
+    }
+    
